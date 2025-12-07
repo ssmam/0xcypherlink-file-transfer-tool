@@ -29,8 +29,8 @@ To run 0xCipherLink, you need to have the following installed:
 
 1. **Clone the Repository**:
     ```sh
-    git clone https://github.com/0x4m4/0xCipherLink.git
-    cd 0xCipherLink
+    git clone https://github.com/ssmam/0xcypherlink-file-transfer-tool.git
+    cd 0xcypherlink-file-transfer-tool
     ```
 
 2. **Install the Required Libraries**:
@@ -50,6 +50,8 @@ To run 0xCipherLink, you need to have the following installed:
     ```sh
     python 0xCipherLink.py
     ```
+
+### using 0xcypherlink tool within a network
 
 2. **Sending a File**:
     - Open **0xCipherLink** and select "Send".
@@ -84,6 +86,41 @@ To run 0xCipherLink, you need to have the following installed:
 4. Enter the same password used by the sender (e.g., `mypassword`).
 5. Click "Execute".
 
+### Using 0xCipherLink Outside the Network (Over the Internet) — Using Tailscale
+
+Use this when both users are in different locations, different Wi-Fi, different cities, etc.
+Tailscale creates a private network between you and your friend.
+
+### steps:
+
+Install Tailscale on both systems
+`https://tailscale.com/download`
+You (the host) send Tailscale invite link to your friend.
+
+Your friend accepts the invite.
+✔ Now both of you are inside the same Tailscale private network.
+
+Tailscale gives both of you a private IP like:
+
+100.xx.xx.xx
+
+
+Example:
+
+Your Tailscale IP: 100.87.33.10
+
+Friend’s Tailscale IP: 100.65.90.55
+
+Both users run the tool:
+
+`python 0xCipherLink.py`
+
+
+Now enter each other’s Tailscale IP in the tool.
+
+You can transfer files from anywhere in the world, safely.
+
+
 ### Security
 
 **0xCipherLink** employs several security mechanisms to ensure your files are safe:
@@ -97,12 +134,7 @@ To run 0xCipherLink, you need to have the following installed:
 
 While **0xCipherLink** provides strong encryption, it is essential to use a strong, unique password and ensure that the password is shared securely between sender and receiver. The security of the file transfer relies on the secrecy and complexity of the password used.
 
-### Contact
 
-For any issues, suggestions, or contributions, feel free to reach out or create an issue in the GitHub repository.
 
----
-
-Thank you for using **0xCipherLink**. Secure your file transfers with confidence!
 
 
