@@ -92,9 +92,6 @@ To run 0xCipherLink, you need to have the following installed:
 - **PBKDF2 with HMAC-SHA256**: Robust key derivation function to secure your password.
 - **IV (Initialization Vector)**: Random IV for each encryption session to ensure uniqueness.
 
-### Screenshot
-
-![Alt text](/screenshot/screenshot.jpg)
 
 ### Disclaimer
 
@@ -108,4 +105,4 @@ For any issues, suggestions, or contributions, feel free to reach out or create 
 
 Thank you for using **0xCipherLink**. Secure your file transfers with confidence!
 
-- **contact@0x4m4.com**
+
