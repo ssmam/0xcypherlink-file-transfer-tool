@@ -1,6 +1,3 @@
-# 0xCipherLink by 0x4m4
-# Secure File Transfer Tool
-# www.0x4m4.com
 
 import tkinter as tk
 from tkinter import filedialog
@@ -329,3 +326,4 @@ def pulse_button(widget, phase=[0]):
 pulse_button(exec_btn)
 
 root.mainloop()
+
