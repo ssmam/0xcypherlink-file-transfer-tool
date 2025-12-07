@@ -2,7 +2,7 @@
 
 ## Secure File Transfer Tool
 
-**0xCipherLink**, a secure file transfer tool designed by 0x4m4. This tool ensures your files are transferred safely and confidentially over the network using strong encryption methods.
+**0xCipherLink**, a secure file transfer tool designed by Nand-Thow. This tool ensures your files are transferred safely and confidentially over the network using strong encryption methods.
 
 ### Features
 
@@ -128,6 +128,7 @@ Example:
 ### Disclaimer
 
 While **0xCipherLink** provides strong encryption, it is essential to use a strong, unique password and ensure that the password is shared securely between sender and receiver. The security of the file transfer relies on the secrecy and complexity of the password used.
+
 
 
 
