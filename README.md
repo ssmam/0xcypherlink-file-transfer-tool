@@ -43,6 +43,9 @@ To run 0xCipherLink, you need to have the following installed:
     ```sh
     pip install tkinter
     ```
+    ```sh
+    pip install pillow
+    ```
 
 ### Usage
 
@@ -128,6 +131,7 @@ Example:
 ### Disclaimer
 
 While **0xCipherLink** provides strong encryption, it is essential to use a strong, unique password and ensure that the password is shared securely between sender and receiver. The security of the file transfer relies on the secrecy and complexity of the password used.
+
 
 
 
