@@ -93,25 +93,21 @@ Tailscale creates a private network between you and your friend.
 
 ### steps:
 
-Install Tailscale on both systems
+- Install Tailscale on both systems
 `https://tailscale.com/download`
-You (the host) send Tailscale invite link to your friend.
-
-Your friend accepts the invite.
-✔ Now both of you are inside the same Tailscale private network.
-
-Tailscale gives both of you a private IP like:
-
-100.xx.xx.xx
+- You (the host) send Tailscale invite link to your friend.
+  Your friend accepts the invite.
+- Now both of you are inside the same Tailscale private network.
+- Tailscale gives both of you a private IP like:
+   `100.xx.xx.xx`
 
 
 Example:
 
-Your Tailscale IP: 100.87.33.10
+- Your Tailscale IP: 100.87.33.10
+- Friend’s Tailscale IP: 100.65.90.55
 
-Friend’s Tailscale IP: 100.65.90.55
-
-Both users run the tool:
+ Both users run the tool:
 
 `python 0xCipherLink.py`
 
@@ -133,6 +129,7 @@ You can transfer files from anywhere in the world, safely.
 ### Disclaimer
 
 While **0xCipherLink** provides strong encryption, it is essential to use a strong, unique password and ensure that the password is shared securely between sender and receiver. The security of the file transfer relies on the secrecy and complexity of the password used.
+
 
 
 
