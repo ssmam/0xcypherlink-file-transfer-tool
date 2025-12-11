@@ -107,8 +107,8 @@ Tailscale creates a private network between you and your friend.
 
 Example:
 
-- Your Tailscale IP: 100.87.33.10
-- Friend’s Tailscale IP: 100.65.90.55
+- Your Tailscale IP: 100.87.33..
+- Friend’s Tailscale IP: 100.65.90..
 
 ## Both users run the tool:
 
@@ -131,6 +131,7 @@ Example:
 ### Disclaimer
 
 While **0xCipherLink** provides strong encryption, it is essential to use a strong, unique password and ensure that the password is shared securely between sender and receiver. The security of the file transfer relies on the secrecy and complexity of the password used.
+
 
 
 
